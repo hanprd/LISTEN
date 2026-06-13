@@ -66,12 +66,12 @@ Run all commands from the repository root because `Datasets/Onsite_Train/train_l
 
 ## Included Backbones
 
-| `--backbone` | Type | Embedding dim | Encoder checkpoint | Classifier checkpoint |
-|---|---:|---:|---|---|
-| `LISTEN` | LISTEN encoder | 64 | `Models/LISTEN.pth` | `Models/LISTEN-classifier.pth` |
-| `MobileNetV4-Small` | Distilled baseline | 192 | `Models/MobileNetV4-Small.pth` | `Models/MobileNetV4-Small-classifier.pth` |
-| `MobileViT-XXS` | Distilled baseline | 192 | `Models/MobileViT-XXS.pth` | `Models/MobileViT-XXS-classifier.pth` |
-| `BC-ResNet-3` | Distilled baseline | 192 | `Models/BC-ResNet-3.pth` | `Models/BC-ResNet-3-classifier.pth` |
+| `--backbone` | Type | Encoder checkpoint | Classifier checkpoint |
+|---|---:|---|---|
+| `LISTEN` | Lightweight encoder | `Models/LISTEN.pth` | `Models/LISTEN-classifier.pth` |
+| `MobileNetV4-Small` | Benchmark baseline | `Models/MobileNetV4-Small.pth` | `Models/MobileNetV4-Small-classifier.pth` |
+| `MobileViT-XXS` | Benchmark baseline | `Models/MobileViT-XXS.pth` | `Models/MobileViT-XXS-classifier.pth` |
+| `BC-ResNet-3` | Benchmark baseline | `Models/BC-ResNet-3.pth` | `Models/BC-ResNet-3-classifier.pth` |
 
 ## Dataset Format
 
