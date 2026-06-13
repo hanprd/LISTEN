@@ -164,6 +164,8 @@ In the on-site CNC case study, LISTEN was adapted with approximately 20 seconds 
 
 ## Citation
 
+If you find our LISTEN codes and models useful in your work, please consider citing our paper:
+
 ```bibtex
 @article{HAN2026104944,
   title = {{LISTEN}: {L}ightweight {I}ndustrial {S}ound-representable {T}ransformer for {E}dge {N}otification},
