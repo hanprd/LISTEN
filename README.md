@@ -151,14 +151,14 @@ This generates:
 
 The Advanced Engineering Informatics paper reports the following encoder-level comparison on a Raspberry Pi 4:
 
-| Model | Parameters | MACs | Time/sample | CPU / memory | ColdSpray F1 | Renishaw F1 | Yornew F1 | VF2 F1 |
+| Model | Parameters | MACs | Time (ms per sample) | CPU (%) / Memory (MB) | F1 Score ColdSpray | F1 Score Renishaw | F1 Score Yornew | F1 Score VF2 |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| IMPACT | 17.3M | 291.3M | 179 ms | 86% / 454 MB | 0.919 | 1.000 | 0.900 | 0.952 |
-| O'IMPACT | 4.23M | 71.3M | 92 ms | 77% / 394 MB | 0.941 | 1.000 | 0.891 | 0.955 |
-| MobileNetV4-S | 1.45M | 60.32M | 78 ms | 82% / 386 MB | 0.909 | 1.000 | 0.906 | 0.957 |
-| MobileViT-XXS | 0.76M | 65.67M | 190 ms | 61% / 402 MB | 0.936 | 1.000 | 0.900 | 0.949 |
-| BC-ResNet-3 | 0.08M | 47.06M | 149 ms | 87% / 406 MB | 0.918 | 1.000 | 0.876 | 0.946 |
-| LISTEN | 0.07M | 5.24M | 32 ms | 66% / 364 MB | 0.934 | 1.000 | 0.907 | 0.956 |
+| IMPACT | 17.3M | 291.3M | 179 | 86 / 454 | 0.919 | 1.000 | 0.900 | 0.952 |
+| O'IMPACT | 4.23M | 71.3M | 92 | 77 / 394 | 0.941 | 1.000 | 0.891 | 0.955 |
+| MobileNetV4-S | 1.45M | 60.32M | 78 | 82 / 386 | 0.909 | 1.000 | 0.906 | 0.957 |
+| MobileViT-XXS | 0.76M | 65.67M | 190 | 61 / 402 | 0.936 | 1.000 | 0.900 | 0.949 |
+| BC-ResNet-3 | 0.08M | 47.06M | 149 | 87 / 406 | 0.918 | 1.000 | 0.876 | 0.946 |
+| LISTEN | 0.07M | 5.24M | 32 | 66 / 364 | 0.934 | 1.000 | 0.907 | 0.956 |
 
 In the on-site CNC case study, LISTEN was adapted with approximately 20 seconds of data per operational mode, completed 200 epochs of shallow-head training in 61 seconds, and achieved an overall F1-score of 0.938 while meeting the 33.3 ms real-time processing threshold on average.
 
