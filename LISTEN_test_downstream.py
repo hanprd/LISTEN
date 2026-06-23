@@ -20,7 +20,7 @@ from tqdm import tqdm
 
 
 SCRIPT_DIR = Path(__file__).resolve().parent
-DEFAULT_TEST_DIR = SCRIPT_DIR / "Datasets" / "Onsite_Test"
+DEFAULT_TEST_DIR = SCRIPT_DIR / "Datasets" / "Onsite_Test" / "test"
 DEFAULT_TRAIN_CSV = SCRIPT_DIR / "Datasets" / "Onsite_Train" / "train_list.csv"
 
 
