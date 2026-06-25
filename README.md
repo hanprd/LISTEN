@@ -6,7 +6,7 @@ This repository contains downstream adaptation and evaluation code for LISTEN, a
 
 ## Paper
 
-- Main article: [Advanced Engineering Informatics, 76, 104944](https://doi.org/10.1016/j.aei.2026.104944)
+- Main article: [Advanced Engineering Informatics, 76, 104944](https://authors.elsevier.com/c/1nFPg5FA1kHGrP)
 - Alternative preprint: [arXiv:2507.07879](https://arxiv.org/abs/2507.07879)
 
 The paper reports that LISTEN reduces the teacher model from O'IMPACT's 4.23M parameters to a 0.07M-parameter encoder, while preserving industrial acoustic representation quality and enabling real-time inference on a Raspberry Pi 4. In the on-site CNC validation, the LISTEN backbone is frozen and a shallow MLP head is adapted from minimal single-trial data for ten operational modes.
